@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00Core">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="02Object">
+      <UniqueIdentifier>{6c614c78-d44b-4e44-ad77-2dd5dbef7131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Mgr">
+      <UniqueIdentifier>{c4bf1fdc-4400-4a7f-830c-dff6db0e1e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Object\Actor">
+      <UniqueIdentifier>{b68058c0-d0c1-420e-87e2-02727c81367e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03STD">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="99User">
+      <UniqueIdentifier>{111c7df7-c18b-4de3-ac53-34ef06c5876c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj">
+      <UniqueIdentifier>{23558a29-9e80-4cc9-a691-c320ca40b0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\Scene">
+      <UniqueIdentifier>{9bff852a-ae70-4aa1-8172-7b05d81b5f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Object\Scene">
+      <UniqueIdentifier>{3d6bd242-b2e9-4eb9-8918-d172a8dde770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Object\Actor\Sub">
+      <UniqueIdentifier>{dd4fd0e9-78b1-4fcd-8411-0c87bd5b2b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04Res">
+      <UniqueIdentifier>{1e11ef41-8c8e-4fbf-9488-f26bc074d7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04Res\Image">
+      <UniqueIdentifier>{f25734ec-ce67-4665-a655-9cbd38ffe1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Object\Actor\Sub\Renderer">
+      <UniqueIdentifier>{77d82e66-c1c8-4d9a-8ff4-50932e281f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Object\Actor\Sub\Collision">
+      <UniqueIdentifier>{3a91cf31-7c54-42c1-890a-a689fa9919a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj\S01Home">
+      <UniqueIdentifier>{280bd5c4-e378-4fa1-8882-507a4c4ec9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj\S00All">
+      <UniqueIdentifier>{15e56983-75b7-4253-8148-2c5bae1b9832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj\S02MtRoad">
+      <UniqueIdentifier>{3b5f8bf8-6e66-441c-97ce-9e0cac01d065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj\S10BattleMountain">
+      <UniqueIdentifier>{cc41b5f8-a7e3-4c20-ba17-f27bac2e0987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj\S03Town">
+      <UniqueIdentifier>{00b3eaf5-b699-400e-b873-07b4116c35ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99User\GameObj\S11BattleTown">
+      <UniqueIdentifier>{d666ced9-c7e0-423b-b271-a4e8fd75f243}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>03STD</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>03STD</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>03STD</Filter>
+    </ClInclude>
+    <ClInclude Include="winAPI.h">
+      <Filter>03STD</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>00Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>01Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02Object\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="baseObj.h">
+      <Filter>02Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>02Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicDef.h">
+      <Filter>03STD</Filter>
+    </ClInclude>
+    <ClInclude Include="Res.h">
+      <Filter>04Res</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>04Res\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRender.h">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TransRender.h">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="AniRender.h">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>01Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>04Res\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderMgr.h">
+      <Filter>01Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorSub.h">
+      <Filter>02Object\Actor\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCol.h">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCol.h">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCol.h">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="S01FirstHome.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="S02MountainRoad.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ListPlayer.h">
+      <Filter>02Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap.h">
+      <Filter>99User\GameObj\S01Home</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMap.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorRock.h">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="MountainMap.h">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="S10BattleSceneMt.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BtMtMap.h">
+      <Filter>99User\GameObj\S10BattleMountain</Filter>
+    </ClInclude>
+    <ClInclude Include="BattlePlayer.h">
+      <Filter>02Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch01AtahoMove.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch02LinsianMove.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch03SmashMove.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch01AtahoBattle.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Flood.h">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="S03Town.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BeachTown.h">
+      <Filter>99User\GameObj\S03Town</Filter>
+    </ClInclude>
+    <ClInclude Include="S11BattleSceneTown.h">
+      <Filter>99User\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BtTownMap.h">
+      <Filter>99User\GameObj\S11BattleTown</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch02LinsianBattle.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Ch03SmashBattle.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMenu.h">
+      <Filter>99User\GameObj\S10BattleMountain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgWindow.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>02Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey.h">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="Girl.h">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="OldMan.h">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusBar.h">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>02Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMonkey.h">
+      <Filter>99User\GameObj\S10BattleMountain</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>99User\GameObj\S03Town</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBattle.h">
+      <Filter>99User\GameObj\S11BattleTown</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>03STD</Filter>
+    </ClCompile>
+    <ClCompile Include="winAPI.cpp">
+      <Filter>03STD</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>00Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>01Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02Object\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="baseObj.cpp">
+      <Filter>02Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>02Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Res.cpp">
+      <Filter>04Res</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>04Res\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="AniRender.cpp">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRender.cpp">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TransRender.cpp">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>01Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>04Res\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderMgr.cpp">
+      <Filter>01Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRender.cpp">
+      <Filter>02Object\Actor\Sub\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorSub.cpp">
+      <Filter>02Object\Actor\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCol.cpp">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCol.cpp">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCol.cpp">
+      <Filter>02Object\Actor\Sub\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="S01FirstHome.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="S02MountainRoad.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ListPlayer.cpp">
+      <Filter>02Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap.cpp">
+      <Filter>99User\GameObj\S01Home</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMap.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorRock.cpp">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="MountainMap.cpp">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="S10BattleSceneMt.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BtMtMap.cpp">
+      <Filter>99User\GameObj\S10BattleMountain</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlePlayer.cpp">
+      <Filter>02Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch01AtahoMove.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch02LinsianMove.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch03SmashMove.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch01AtahoBattle.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Flood.cpp">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="S03Town.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BeachTown.cpp">
+      <Filter>99User\GameObj\S03Town</Filter>
+    </ClCompile>
+    <ClCompile Include="S11BattleSceneTown.cpp">
+      <Filter>99User\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BtTownMap.cpp">
+      <Filter>99User\GameObj\S11BattleTown</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch02LinsianBattle.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch03SmashBattle.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMenu.cpp">
+      <Filter>99User\GameObj\S10BattleMountain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgWindow.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>02Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey.cpp">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="Girl.cpp">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="OldMan.cpp">
+      <Filter>99User\GameObj\S02MtRoad</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusBar.cpp">
+      <Filter>99User\GameObj\S00All</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>02Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMonkey.cpp">
+      <Filter>99User\GameObj\S10BattleMountain</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>99User\GameObj\S03Town</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBattle.cpp">
+      <Filter>99User\GameObj\S11BattleTown</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="winAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

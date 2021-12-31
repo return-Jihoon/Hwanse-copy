@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="baseDebug">
+      <UniqueIdentifier>{b8a1b129-5047-4ddc-91f8-18437877b755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseIO">
+      <UniqueIdentifier>{634cf89e-4f20-4f34-980a-130c0253f9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseWinApi">
+      <UniqueIdentifier>{44592e5c-c56b-45fa-a336-0e1d73c1157c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseTime">
+      <UniqueIdentifier>{813b39cb-aa8b-40e2-8857-fd76a3742fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseMath">
+      <UniqueIdentifier>{528e3ea0-0711-4930-8334-dcec2a81795d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseInput">
+      <UniqueIdentifier>{aad0cb8a-4938-4f80-9952-c5cdf0794670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseSound">
+      <UniqueIdentifier>{64be109e-ce74-432c-b7c0-d341d15a366c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="baseTemplate">
+      <UniqueIdentifier>{4cc204cb-e37a-4130-a6e3-cde0670fbcda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bWindow.h">
+      <Filter>baseWinApi</Filter>
+    </ClInclude>
+    <ClInclude Include="bDebug.h">
+      <Filter>baseDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="bIO.h">
+      <Filter>baseIO</Filter>
+    </ClInclude>
+    <ClInclude Include="bFile.h">
+      <Filter>baseIO</Filter>
+    </ClInclude>
+    <ClInclude Include="bTime.h">
+      <Filter>baseTime</Filter>
+    </ClInclude>
+    <ClInclude Include="bGeo.h">
+      <Filter>baseMath</Filter>
+    </ClInclude>
+    <ClInclude Include="bDirect.h">
+      <Filter>baseIO</Filter>
+    </ClInclude>
+    <ClInclude Include="bPath.h">
+      <Filter>baseIO</Filter>
+    </ClInclude>
+    <ClInclude Include="bInput.h">
+      <Filter>baseInput</Filter>
+    </ClInclude>
+    <ClInclude Include="bSound.h">
+      <Filter>baseSound</Filter>
+    </ClInclude>
+    <ClInclude Include="bTemplate.h">
+      <Filter>baseTemplate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bWindow.cpp">
+      <Filter>baseWinApi</Filter>
+    </ClCompile>
+    <ClCompile Include="bIO.cpp">
+      <Filter>baseIO</Filter>
+    </ClCompile>
+    <ClCompile Include="bFile.cpp">
+      <Filter>baseIO</Filter>
+    </ClCompile>
+    <ClCompile Include="bTime.cpp">
+      <Filter>baseTime</Filter>
+    </ClCompile>
+    <ClCompile Include="bGeo.cpp">
+      <Filter>baseMath</Filter>
+    </ClCompile>
+    <ClCompile Include="bDirect.cpp">
+      <Filter>baseIO</Filter>
+    </ClCompile>
+    <ClCompile Include="bPath.cpp">
+      <Filter>baseIO</Filter>
+    </ClCompile>
+    <ClCompile Include="bInput.cpp">
+      <Filter>baseInput</Filter>
+    </ClCompile>
+    <ClCompile Include="bSound.cpp">
+      <Filter>baseSound</Filter>
+    </ClCompile>
+    <ClCompile Include="bTemplate.cpp">
+      <Filter>baseTemplate</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
